@@ -1,51 +1,5 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #4C5B84;
-    border-bottom: 10px solid black;
-    padding: 20px 10px;
-}
-
 nav{
     text-align: right;
-}
-
-a{
-    display: inline-flex;
-    align-items: center;
-    color: whitesmoke;
-    font-size: 18px;
-    font-family: "Fira Code", Arial, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-a:before{
-    content: "";
-    background-color: black;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-
-
-#button{
-    display: inline-block;
-    background-color: black ;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0 black;
-    margin-right: 0;
-    transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
-}
-
-#button:hover {
-    transform: scale(1.08);
-    animation-duration: 1s glitch;
 }
 
 img{
